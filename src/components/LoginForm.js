@@ -36,7 +36,7 @@ class LoginForm extends Component {
                 <Text style={styles.instagramStyle}>Instagram</Text>
               <CardSection>
                 <Input
-                  label="Email"
+                  label="Email Asli"
                   placeholder="email@example.com"
                   onChangeText={this.onEmailChange.bind(this)}
                   value={this.props.email}
